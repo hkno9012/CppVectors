@@ -6,4 +6,10 @@
 //  Copyright © 2019 Knott, Hunter. All rights reserved.
 //
 
-#include "Runner.hpp"
+#include "Controller.hpp"
+
+int main()
+{
+    Controller app;
+    app.start();
+}
